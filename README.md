@@ -39,10 +39,12 @@ class Kernel extends ConsoleKernel
 
 
 ** 只转换指定的表 **
+
 ```php php artisan make:sqltomigrations dbName --only=table1,table2 -C```
 
 
 ** 转换整个库，忽略指定的表 **
+
 ```php php artisan make:sqltomigrations dbName --ignore=table1,table2 -C```
 
 
